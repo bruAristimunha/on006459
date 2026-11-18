@@ -3,7 +3,7 @@
   - 17 *_coordsystem.json: NIRSCoordinateSystemDescription added (BIDS requires it when NIRSCoordinateSystem is Other)
   - 17 *_nirs.json: Manufacturer from the SNIRF tag ManufacturerName (NIRx Medizintechnik GmbH); ManufacturersModelName NIRSport2 (doi:10.1117/1.NPh.12.3.035010, section 2.2.2 Hardware); RecordingDuration and RecordingType computed from the SNIRF time vector of each recording
   - 17 optodes.tsv and 16 events.tsv: Windows line endings removed; values unchanged
-  - sourcedata/: the published versions of the 17 tables whose values change in this version, byte-identical at the same relative path
+  - sourcedata/: the published versions of the files whose values change in this version (17 channels.tsv), byte-identical at the same relative path (plain git files)
   - README.md: new section "Contributed notes (version 1.0.1)"
   - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2025-07-08
